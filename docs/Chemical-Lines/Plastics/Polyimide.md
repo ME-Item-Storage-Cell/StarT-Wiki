@@ -3,7 +3,7 @@ title: Polyimide
 author: ME Item Storage Cell
 ---
 
-# Poliyimide (PI)
+# Polyimide (PI)
 <small>**Guide by:** ME Item Storage Cell</small>
 
 !!! quote ""

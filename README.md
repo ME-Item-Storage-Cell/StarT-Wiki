@@ -15,4 +15,9 @@ Official documentation for the Minecraft mod Star Technology (Currently covering
 This wiki is built in Mkdocs. Other plugins/resources used are listed [here](https://start-dev-team.github.io/StarT-Wiki/Meet-the-Team/Credits/#resources)
 
 ## How it works
-Works like you would expect from any wiki. You can navigate between categories using the navbar, and then select specific pages using the sidebar. The table of contents on the right hand side allows you to easily find specific information within a page. The search bar allows you to find relavent pages using specific terms.
+Works like you would expect from any wiki. You can navigate between categories using the navbar, and then select specific pages using the sidebar. The table of contents on the right hand side allows you to easily find specific information within a page.
+<img width="1218" height="360" alt="image" src="https://github.com/user-attachments/assets/8db24e43-bf89-4691-9343-e5272695e8a5" />
+
+The search bar allows you to find relavent pages using specific terms.
+<img width="701" height="592" alt="image" src="https://github.com/user-attachments/assets/2a22d067-1479-405b-9d98-cfa4e3c5c084" />
+

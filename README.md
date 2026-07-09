@@ -36,33 +36,36 @@ The search bar allows you to find relavent pages using specific terms.
 3. From the *Welcome* page, click on **Clone Git repository**, select **Clone from GitHub**, and select `YOUR-NAME/StarT-Wiki`.
 4. Open a new terminal from the toolbar.
 5. Run the following commands:
-    - To create the environment:
-        ```console
-        python -m venv venv
-        ```
-        or
-        ```console
-        py -m venv venv
-        ```
+   - To create the environment:
+     ```console
+     python -m venv venv
+     ```
+     or
+     
+     ```console
+     py -m venv venv
+     ```
 
-    - To activate the environment:
-        Windows
-            ```console
-            .\venv\Scripts\activate
-            ```
+   - To activate the environment:
 
-        Mac
-            ```console
-            source venv/bin/activate
-            ```
+     **Windows**
+     ```console
+     .\venv\Scripts\activate
+     ```
 
-    - To install Material for MkDocs and other used plugins:
-        ```console
-        pip install mkdocs-material pymdown-extensions mkdocs-mermaid2-plugin mkdocs-panzoom-plugin
-        ```
+     **Mac**
+     ```console
+     source venv/bin/activate
+     ```
+
+   - To install Material for MkDocs and other used plugins:
+     ```console
+     pip install mkdocs-material pymdown-extensions mkdocs-mermaid2-plugin mkdocs-panzoom-plugin
+     ```
 
 6. Run this command to launch the app:
-    ```console
-    mkdocs serve
-    ```
-    You can now access your local wiki copy at [http://127.0.0.1:8000/](http://127.0.0.1:8000/), and any changes you make will be reflected in the browser automatically. To stop the app, press `Ctrl+C` in the terminal.
+   ```console
+   mkdocs serve
+   ```
+
+   You can now access your local wiki copy at <http://127.0.0.1:8000/>. Any changes you make will be reflected in the browser automatically. To stop the app, press `Ctrl+C` in the terminal.

@@ -21,3 +21,48 @@ Works like you would expect from any wiki. You can navigate between categories u
 The search bar allows you to find relavent pages using specific terms.
 <img width="701" height="592" alt="image" src="https://github.com/user-attachments/assets/2a22d067-1479-405b-9d98-cfa4e3c5c084" />
 
+## Running this wiki locally
+### Prerequisites
+- [Git](https://git-scm.com/downloads)
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [GitHub Account](https://github.com/)
+- [Python](https://www.python.org/downloads/)
+
+### Preparing the workspace
+!!! Note This wiki uses [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) to generate documentation from markdown pages.
+
+1. Fork the [repository](https://github.com/StarT-Dev-Team/StarT-Wiki).
+2. Open Visual Studio Code.
+3. From the *Welcome* page, click on **Clone Git repository**, select **Clone from GitHub**, and select `YOUR-NAME/StarT-Wiki`.
+4. Open a new terminal from the toolbar.
+5. Run the following commands:
+    - To create the environment:
+        ```console
+        python -m venv venv
+        ```
+        or
+        ```console
+        py -m venv venv
+        ```
+
+    - To activate the environment:
+        Windows
+            ```console
+            .\venv\Scripts\activate
+            ```
+
+        Mac
+            ```console
+            source venv/bin/activate
+            ```
+
+    - To install Material for MkDocs and other used plugins:
+        ```console
+        pip install mkdocs-material pymdown-extensions mkdocs-mermaid2-plugin mkdocs-panzoom-plugin
+        ```
+
+6. Run this command to launch the app:
+    ```console
+    mkdocs serve
+    ```
+    You can now access your local wiki copy at [http://127.0.0.1:8000/](http://127.0.0.1:8000/), and any changes you make will be reflected in the browser automatically. To stop the app, press `Ctrl+C` in the terminal.
